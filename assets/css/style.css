@@ -28,9 +28,12 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
 }
-body::selection{
-  background: #05ab7a;
-}
+h1::selection{background: #ffc107;}
+h2::selection{background: #ffc107;}
+h3::selection{background: #ffc107;}
+h4::selection{background: #ffc107;}
+h5::selection{background: #ffc107;}
+h6::selection{background: #ffc107;}
 p::selection{
   background: #05ab7a;
 }
