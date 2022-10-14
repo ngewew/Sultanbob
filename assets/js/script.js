@@ -6,13 +6,14 @@ let dlimage1 = document.getElementsByClassName("duit1")[0];
 let line = document.getElementsByClassName("line")[0];
 let bgbob = document.getElementsByClassName("ijo")[0];
 let listrik = document.getElementsByClassName("pln")[0];
-let bobteks = document.querySelector("#landing h1");
+let bobteks = document.getElementsByClassName("teks")[0];
 
 window.addEventListener('scroll', function() {
 	let value = window.scrollY;
 
 	bobimage.style.top = value * 0.3 + 'px';
 	bobimage.style.right = value * 0.3 + 'px';
+	bobimage.style.size = value * 0.3 + 'px';
 	bgimage.style.top = value * 0.3 + 'px';
 	dlimage1.style.top = value * 0.3 + 'px';
 	dlimage.style.top = value * 0.4 + 'px';
@@ -22,7 +23,7 @@ window.addEventListener('scroll', function() {
 	bgbob.style.right = value * 0.4 + 'px';
 	listrik.style.right = value * 0.2 + 'px';
 	listrik.style.top = value * 0.3 + 'px';
-	bobteks.style.right = value * 0.3 + 'px';
+	bobteks.style.left = value * 0.2 + 'px';
 })
 
 
@@ -43,7 +44,7 @@ window.addEventListener('scroll', function() {
 	ung.style.top = value * 0.2 + 'px';
 	ung1.style.top = value * 0.4 + 'px';
 	bip.style.right = value * 0.4 + 'px';
-	bob.style.right = value * 0.3 + 'px';
+	bob.style.top = value * 0.3 + 'px';
 	tir.style.right = value * 0.3 + 'px';
 	ung2.style.top = value * 0.5 + 'px';
 	ung2.style.right = value * 0.1 + 'px';

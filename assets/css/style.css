@@ -28,6 +28,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
 }
+a::selecttion{background: #ffc107;}
 h1::selection{background: #ffc107;}
 h2::selection{background: #ffc107;}
 h3::selection{background: #ffc107;}
@@ -256,12 +257,15 @@ p::selection{
 .duit1{
   z-index: 5;
 }
+.teks{
+  z-index: 6;
+}
 #landing::before{
   content: '';
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 135px;
+  height: 30px;
   background: linear-gradient(to top, #222424, transparent);
   z-index: 6;
 }
@@ -285,7 +289,7 @@ p::selection{
     object-fit: cover;
   }
   .uang{
-    z-index: 2;
+    z-index: 5;
   }
   .uang1{
     z-index: 2;
